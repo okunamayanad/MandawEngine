@@ -37,81 +37,133 @@
     <br>
     <h1 style="text-align: center;">Getting Started</h1>
     <h2 id="install">Installation</h2>
-    <div class="code_block" style="top: 100px;">
-       <purple>pip</purple> install mandaw
+
+    <div class="center">
+        <div class="code_block" style="top: 100px;">
+        <purple>pip</purple> install mandaw
+            <button class="copy-btn" onclick='copyText("pip install mandaw", "1")'><img class="copy-ico img1" id="1" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
 
     <h2 style="text-align: center; position: relative; top: 200px;">Or To Install The Latest Version</h2>
     <h3 style="text-align: center; position: relative; top: 250px;"><br>Download The Zip In The Github <br><br> On Windows: <br><br> Run The install.bat <br><br> On Mac and Linux:</h3>
 
-    <div class="code_block" style="top: 280px;">
-        <purple>python3</purple> setup.py install
+    <div class="center">
+        <div class="code_block" style="top: 280px;">
+            <purple>python3</purple> setup.py install
+            <button class="copy-btn" onclick='copyText("python3 setup.py install", "2")'><img class="copy-ico img2" id="2" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
+
+
 
     <h2 style="text-align: center; position: relative; top: 350px;">Making a Window</h2>
     <h3 style="text-align: center; position: relative; top: 400px;">First, Import Mandaw</h3>
 
-    <div class="code_block" style="top: 450px;">
-        <purple>from</purple> mandaw <purple>import</purple> *
+    <div class="center">
+        <div class="code_block" style="top: 450px;">
+            <purple>from</purple> mandaw <purple>import</purple> *
+            <button class="copy-btn" onclick='copyText("from mandaw import", "3")'><img class="copy-ico img3" id="3" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
+
 
     <h3 style="text-align: center; position: relative; top: 500px;">Then Call Mandaw</h3>
 
-    <div class="code_block" style="top: 550px;">
-        mandaw = Mandaw(<gray>title</gray> = <orange>"Mandaw"</orange>, <gray>width</gray> = <green>800</green>, <gray>height</gray> = <green>600</green>, <gray>bg_color</gray> = <orange>"cyan"</orange>)
+    <div class="center">
+        <div class="code_block" style="top: 550px;">
+            mandaw = Mandaw(<gray>title</gray> = <orange>"Mandaw"</orange>, <gray>width</gray> = <green>800</green>, <gray>height</gray> = <green>600</green>, <gray>bg_color</gray> = <orange>"cyan"</orange>)
+            <button class="copy-btn" onclick='copyText("mandaw = Mandaw(title = \"Mandaw\", width = 800, height = 600, bg_color = \"cyan\"", "4")'><img class="copy-ico img4" id="4" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
+
 
     <h3 style="text-align: center; position: relative; top: 600px;">And then Run Mandaw with</h3>
 
-    <div class="code_block" style="top: 650px;">
-        <purple>while</purple> <blue>True</blue>: mandaw.<yellow>run</yellow>()
+    <div class="center">
+        <div class="code_block" style="top: 650px;">
+            <purple>while</purple> <blue>True</blue>: mandaw.<yellow>run</yellow>()
+            <button class="copy-btn" onclick='copyText("while True: mandaw.run()", "5")'><img class="copy-ico img5" id="5" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
+
 
     <h2 style="text-align: center; position: relative; top: 700px;">Making A Square</h2>
     <h3 style="text-align: center; position: relative; top: 750px;">Declare the Square With GameObject</h3>
 
-    <div class="code_block" style="top: 800px;">
-        square = GameObject(<gray>window</gray> = mandaw, <gray>shape</gray> = <orange>"rect"</orange>, <gray>width</gray> = <green>20</green>, <gray>height</gray> = <green>20</green>, <gray>x</gray> = <green>0</green>, <gray>y</gray> = <green>0</green>, <gray>color</gray> = <orange>"white"</orange>)
+    <div class="center">
+        <div class="code_block" style="top: 800px;">
+            square = GameObject(<gray>window</gray> = mandaw, <gray>shape</gray> = <orange>"rect"</orange>, <gray>width</gray> = <green>20</green>, <gray>height</gray> = <green>20</green>, <gray>x</gray> = <green>0</green>, <gray>y</gray> = <green>0</green>, <gray>color</gray> = <orange>"white"</orange>)
+            <button class="copy-btn" onclick='copyText("square = GameObject(window = mandaw, shape = \"rect\", width = 20, height = 20, x = 0, y = 0, color = \"white\")", "6")'><img class="copy-ico img6" id="6" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
+
 
     <h3 style="text-align: center; position: relative; top: 850px;">Then to Center it, write</h3>
 
-    <div class="code_block" style="top: 900px;">
-        square.<yellow>center</yellow>()
+    <div class="center">
+        <div class="code_block" style="top: 900px;">
+            square.<yellow>center</yellow>()
+            <button class="copy-btn" onclick='copyText("square.center()", "7")'><img class="copy-ico img7" id="7" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
+
 
     <h3 style="text-align: center; position: relative; top: 950px;">Then in the <purple>while</purple> <blue>True</blue>: loop, write</h3>
     
-    <div class="code_block" style="top: 1000px;">
-        square.<yellow>draw</yellow>()
+    <div class="center">
+        <div class="code_block" style="top: 1000px;">
+            square.<yellow>draw</yellow>()
+            <button class="copy-btn" onclick='copyText("square.draw()", "8")'><img class="copy-ico img8" id="8" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
+
 
     <h2 style="text-align: center; position: relative; top: 1050px;">Collisions Between GameObjects</h2>
     <h3 style="text-align: center; position: relative; top: 1100px;">Make A Ground</h3>
 
-    <div class="code_block" style="top: 1150px;">
-        ground = GameObject(<gray>window</gray> = mandaw, <gray>shape</gray> = <orange>"rect"</orange>, <gray>width</gray> = <green>5000</green>, <gray>height</gray> = <green>100</green>, <gray>x</gray> = <green>0</green>, <gray>y</gray> = <green>0</green>, <gray>color</gray> = <orange>"gray"</orange>)
+    <div class="center">
+        <div class="code_block" style="top: 1150px;">
+            ground = GameObject(<gray>window</gray> = mandaw, <gray>shape</gray> = <orange>"rect"</orange>, <gray>width</gray> = <green>5000</green>, <gray>height</gray> = <green>100</green>, <gray>x</gray> = <green>0</green>, <gray>y</gray> = <green>0</green>, <gray>color</gray> = <orange>"gray"</orange>)
+            <button class="copy-btn" onclick='copyText("ground = GameObject(window = mandaw, shape = \"rect\", width = 5000, height = 100, x = 0, y = 0, color = \"gray\")", "9")'><img class="copy-ico img9" id="9" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
+
 
     <h3 style="text-align: center; position: relative; top: 1200px;">Center It</h3>
 
-    <div class="code_block" style="top: 1250px;">
-        ground.<yellow>center</yellow>()  <br>
-        ground.<gray>y</gray> = <green>500</green>
+    <div class="center">
+        <div class="code_block" style="top: 1250px;">
+            ground.<yellow>center</yellow>()  <br>
+            ground.<gray>y</gray> = <green>500</green>
+            <button class="copy-btn" onclick='copyText("ground.center()) ground.y = 500", "10")'><img class="copy-ico img10" id="10" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
+
 
     <h3 style="text-align: center; position: relative; top: 1300px;">Draw it in the <purple>while</purple> <blue>True</blue>: loop</h3>
 
-    <div class="code_block" style="top: 1350px;">
-        ground.<yellow>draw</yellow>()
+    <div class="center">
+        <div class="code_block" style="top: 1350px;">
+            ground.<yellow>draw</yellow>()
+            <button class="copy-btn" onclick='copyText("ground.draw", "11")'><img class="copy-ico img11" id="11" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
+
 
     <h3 style="text-align: center; position: relative; top: 1400px;">Here we can use the <yellow>collide</yellow>() function</h3>
 
-    <div class="code_block" style="top: 1450px;">
-        <gray># Square's y position += 1 x deltaTime</gray> <br>
-        <purple>if</purple> <blue>not</blue> square.<yellow>collide</yellow>(ground): <br> square.<gray>y</gray> += <green>1</green> * mandaw.<gray>dt</gray>
+    <div class="center">
+        <div class="code_block" style="top: 1450px;">
+            <gray># Square's y position += 1 x deltaTime</gray> <br>
+            <purple>if</purple> <blue>not</blue> square.<yellow>collide</yellow>(ground): 
+            <button class="copy-btn" onclick='copyText("if not square.collide(ground):", "12")'><img class="copy-ico img12" id="12" src="assets/content_copy_white_24dp.svg" alt=""></button>
+            <br>
+            square.<gray>y</gray> += <green>1</green> * mandaw.<gray>dt</gray>
+            <button class="copy-btn" onclick='copyText("square.y += 1 * mandaw.dt", "13")'><img class="copy-ico img13" id="13" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
+
 
     <div style="text-align: center; position: relative; top: 1500px;">
         <a href="https://github.com/mandaw2014/MandawEngine/blob/master/mandaw/examples/collision.py">Full Code</a>
@@ -119,14 +171,26 @@
 
     <h2 style="text-align: center; position: relative; top: 1600px;">Input in Mandaw</h2>
 
-    <div class="code_block" style="top: 1650px; font-size: 14px;">
-        <purple>if</purple> mandaw.<gray>controls</gray>.<yellow>is_key_pressed</yellow>(mandaw.<gray>keys</gray>[<orange>"A"</orange>]): <br> <yellow>print</yellow>(<orange>"A was pressed!"</orange>) <br>
-        <purple>if</purple> mandaw.<gray>controls</gray>.<yellow>is_key_pressed</yellow>(mandaw.<gray>keys</gray>[<orange>"D"</orange>]): <br><yellow>print</yellow>(<orange>"D was pressed!"</orange>)
+    <div class="center">
+        <div class="code_block" style="top: 1650px; font-size: 14px;">
+            <purple>if</purple> mandaw.<gray>controls</gray>.<yellow>is_key_pressed</yellow>(mandaw.<gray>keys</gray>[<orange>"A"</orange>]): <br> <yellow>print</yellow>(<orange>"A was pressed!"</orange>) <br>
+            <purple>if</purple> mandaw.<gray>controls</gray>.<yellow>is_key_pressed</yellow>(mandaw.<gray>keys</gray>[<orange>"D"</orange>]): <br><yellow>print</yellow>(<orange>"D was pressed!"</orange>)
+            <button class="copy-btn" onclick='copyText("if mandaw.controls.is_key_pressed(mandaw.keys[\"A\"]): print(\"A was pressed!\") if mandaw.controls.is_key_pressed(mandaw.keys[\"D\"]): print(\"D was pressed!\")\")", "14")'><img class="copy-ico img14" id="14" src="assets/content_copy_white_24dp.svg" alt=""></button>
+        </div>
     </div>
 
-    <div style="position: relative; top: 1750px;">.</div>
+
+    <div style="position: relative; height: 1750px; z-index: -100;"></div>
 
     <script>
+        function copyText(toCopy, indexOfText) {
+            /* Copy the text */
+            navigator.clipboard.writeText(toCopy)
+
+            document.getElementById(indexOfText).src="assets/done_white_24dp.svg"
+            setTimeout(document.getElementById(indexOfText).src="assets/content_copy_white_24dp.svg", 1000);
+        }
+
         /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {

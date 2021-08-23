@@ -44,32 +44,67 @@
     top: 50px;
 }
 
+.center {
+    text-align: center;
+}
+
 .code_block {
+    font-family: 'Roboto Mono';
+
+    border-radius: 10px;
+    background: #d3d3d3;
+    padding: 40px; 
+    display: inline-block;
+
+    font-size: 14px ;
+
+    padding: 10px;
+
     text-align: center;
     position: relative;
 }
 
+.copy-ico{
+    height: 24px;
+}
+
+.copy-btn {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 purple {
+    font-family: 'Roboto Mono';
     color: hsl(289.0, 50%, 50%);
 }
 
 gray {
+    font-family: 'Roboto Mono';
     color: rgb(119, 119, 119);
 }
 
 orange {
+    font-family: 'Roboto Mono';
     color: rgba(255, 115, 0, 0.699);
 }
 
 green {
+    font-family: 'Roboto Mono';
     color: rgb(152, 255, 56);
 }
 
 blue {
+    font-family: 'Roboto Mono';
     color: rgb(3, 61, 253);
 }
 
 yellow {
+    font-family: 'Roboto Mono';
     color: rgb(219, 186, 0);
 }
 
