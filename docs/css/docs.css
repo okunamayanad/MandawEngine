@@ -29,10 +29,6 @@ h1 {
     position: relative;
 }
 
-.logo{
-    height: 250px;
-}
-
 purple {
     color: hsl(289.0, 50%, 50%);
 }
