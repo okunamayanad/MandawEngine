@@ -2,8 +2,14 @@ header {
     background-color: #404040;
 }
 
-.main-nav {
+#main-nav {
+    z-index: 10; /* To stay on top of everything */
+    background-color: #333;
     height: 90px;
+    position: fixed; /* Make it stick/fixed */
+    top: 0;
+    width: 100%; 
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
 .logo {

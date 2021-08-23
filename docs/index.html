@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <nav class="main-nav">
+        <nav id="main-nav">
             <input type="checkbox" id="check" />
             <label for="check" class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -125,5 +125,19 @@
     </div>
 
     <div style="position: relative; top: 1750px;">.</div>
+
+    <script>
+        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("main-nav").style.top = "0";
+          } else {
+            document.getElementById("main-nav").style.top = "-90px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
 </body>
 </html>
