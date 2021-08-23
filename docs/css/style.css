@@ -7,19 +7,19 @@
 #slogan {
     position: relative;
     text-align: center;
-    z-index: 1  ;
+    z-index: -4;
     font-size: 50px;
     top: 200px;
 }
 
 #bg {
-    /* The image used */
-    background-image: url("../assets/bg.png");
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: -5;
 
-    /* Set a specific height */
-    min-height: 100vh;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
