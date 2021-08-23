@@ -236,5 +236,18 @@
     </div>
 
     <div style="position: relative; top: 2600px;">.</div>
+    <script>
+        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("main-nav").style.top = "0";
+          } else {
+            document.getElementById("main-nav").style.top = "-90px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
 </body>
 </html>
